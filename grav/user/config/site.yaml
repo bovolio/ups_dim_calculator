@@ -1,0 +1,17 @@
+title: 'D.I.M Calculator'
+default_lang: en
+author:
+  name: Jmac
+  email: julianmaciel96@gmail.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'easy to use DIM calculator'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
