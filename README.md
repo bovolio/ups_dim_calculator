@@ -10,3 +10,4 @@ Dimensional Weight Calculator for UPS and Purolator ground services. made this b
 * Add Air Freights
 * Implement Large Package Shipping Rates
 * Add Imperial/Metric options
+* Add travis.ci file
