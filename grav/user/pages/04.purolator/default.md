@@ -42,13 +42,17 @@ body_classes: 'title-center title-h1h2'
         var height = parseFloat(document.getElementById('height').value);
         var weight = parseFloat(document.getElementById('weight').value);
         var dim = Math.round([(length * width * height)/ 1728] * 10.4);
+        var girth = (2 * width) + (2 * height);
+
         document.getElementById('outcome').innerHTML = `${dim} lbs.`;
         document.getElementById('normalweight').innerHTML = `${weight} lbs.`;
+
+
         if(dim > weight){
             document.getElementById('billable-weight').innerHTML = `${dim} lbs.`;
         }
         else {
             document.getElementById('billable-weight').innerHTML = `${weight} lbs.`;
-        };
+        }
     };
 </script>
