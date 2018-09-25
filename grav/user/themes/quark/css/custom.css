@@ -1,0 +1,47 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap:10px;
+}
+
+.grid-item-1 {
+font-size: 20px;
+text-align: center;
+grid-column-start: 1fr;
+grid-column-end: 2fr;
+}
+
+.grid-item-2 {
+  font-size: 40px;
+  text-align: center;
+  grid-column-start: 2fr;
+  grid-column-end: 4fr;
+  padding-left: 55px;
+  grid-column-gap: 100px;
+
+}
+
+.grid-item-3 {
+  font-size: 40px;
+  text-align: center;
+  grid-column-start: 4fr;
+  grid-column-end: 6fr;
+  grid-column-gap: 100px;
+}
+
+.grid-item-4 {
+  font-size: 60px;
+  text-align: center;
+  grid-column-start: 3fr;
+  grid-column-end: 4fr;
+  grid-row-start: 2;
+  justify-self: center;
+}
+
+.weightnames {
+  font-size: 28px;
+}
+
+.billable-weight {
+  color: #EB000C;
+}
